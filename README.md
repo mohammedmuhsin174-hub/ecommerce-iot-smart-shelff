@@ -1,30 +1,52 @@
-# E-Commerce Platform with AI Chatbot & IoT Smart Shelf
+# 🚀 E-Commerce Platform with AI Chatbot & IoT Smart Shelf
 
 ## Overview
 
-This project is a full-stack MERN e-commerce platform developed as my final-year university project. It integrates an AI-powered product recommendation chatbot with an ESP32-based IoT smart shelf to provide real-time inventory monitoring and a smarter online shopping experience.
+This project is a full-stack MERN e-commerce platform developed as my final-year university project. It combines an AI-powered product recommendation chatbot with an ESP32-based IoT smart shelf to provide real-time inventory and temperature monitoring, improving both the customer shopping experience and inventory management.
 
 ## Features
 
-* User authentication with JWT
+* User registration and JWT authentication
 * Product browsing and shopping cart
-* Stripe payment integration
+* Secure Stripe payment integration
 * AI-powered product recommendation chatbot
-* Admin dashboard for product management
-* ESP32 IoT smart shelf with RFID, ultrasonic, and temperature sensors
-* MongoDB Atlas database
+* Admin dashboard for managing users, products, and orders
+* ESP32 smart shelf with RFID, ultrasonic, and DHT11 sensors
+* Real-time inventory and temperature monitoring
 
 ## Tech Stack
 
 * **Frontend:** React.js
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB Atlas
-* **Authentication:** JWT
+* **Authentication:** JWT & bcrypt
 * **Payments:** Stripe
-* **IoT:** ESP32, RFID, DHT11, HC-SR04
+* **IoT:** ESP32, RFID (MFRC522), HC-SR04, DHT11
+
+## Project Demo
+
+🎥 **Demo Video:**
+https://drive.google.com/file/d/151iX9uoNP2qrWNRHSBoc8ehadkvvXAMr/view?usp=drive_link
 
 ## Documentation
 
-The complete project report and presentation poster are included in this repository for reference.
+This repository also includes:
 
-*This project was completed as part of my Bachelor of Information Technology degree at Amity University Dubai.*
+* 📄 **Final Project Report** – Detailed documentation covering system architecture, implementation, testing, and future scope.
+* 🖼️ **Project Poster** – Project overview, workflow, circuit diagrams, and hardware architecture.
+
+## Repository Structure
+
+```text
+ecommerce-backend/
+ecommerce-frontend/
+hardware.ino/
+docs/
+README.md
+```
+
+## Author
+
+**Mohammed Muhsin**
+Bachelor of Science in Information Technology
+Amity University Dubai
